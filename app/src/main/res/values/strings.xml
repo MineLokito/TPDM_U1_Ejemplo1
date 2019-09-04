@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TPDM_U1_Ejemplo1</string>
+
+    <array name="estados">
+        <item>Nayarit</item>
+        <item>Sinaloa</item>
+        <item>Durango</item>
+        <item>Jalisco</item>
+        <item>Zacatecas</item>
+
+
+    </array>
+</resources>

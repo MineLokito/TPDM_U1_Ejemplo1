@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/iconoa4"
+        android:padding="20dp"
+        android:id="@+id/boton1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantalla de Captura"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:id="@+id/etiqueta1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_below="@+id/etiqueta1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/boton2"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio boton1"
+        android:id="@+id/radio1"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/boton1"
+        android:textColor="#00FF00"
+
+        />
+</RelativeLayout>
